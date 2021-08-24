@@ -1,0 +1,16 @@
+{% extends '../store/index.html' %}
+
+{% block title %}{% endblock title %}
+{% block content %}
+{% for item in basket %}
+    <img class="img-fluid" src="{{ item.product.image.url }}">
+    <h4>{{ item.product.product_name }}</h4>
+    <h4>{{ item.product.price }}</h4>
+    
+   
+{% endfor %}
+{% for total in total %}
+<p>{{ total }}</p>
+{% endfor %}
+
+{% endblock content %}

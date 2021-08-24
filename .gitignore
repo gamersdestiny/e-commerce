@@ -1,9 +1,13 @@
+# local
+temp.*
+*.cfg
+.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-temp.*
+
 
 # C extensions
 *.so
